@@ -1,0 +1,16 @@
+name: flutter_network_monitor
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.63.0
+
+  # to run OS commands
+  process_run: ^0.12.2
+
+flutter:
+  uses-material-design: true
